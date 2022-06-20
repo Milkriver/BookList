@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+.pageHeader{
+    background-color: #f3f3e7;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: solid 2px black;
+}
+
+button{
+    background-color:#abc98a;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #abc98a;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.bookList {
+    background-color: #f3f3e7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction:row;
+    align-items: left;
+    justify-content: left;
+    font-size: 12px;
+}
+
+.bookElement{
+    margin-left: 40px;
+}
+
+.bookAuthorTitle, .bookNameTitle {
+font-weight: bold;
+margin-top: 10px;
+}
+
+.bookAuthor, .bookName{
+    font-size: 12px;
+}
+
+.bookImage{
+    width: 120px;
+    height: 190px;
+    margin-top: 15px;
+}
+
+.buyBookButton{
+    margin-top: 15px;
+}
+
+.addBookElement{
+    display: flex;
+    flex-direction:column;
+    margin-left: 20px;
+}
+
+.addBookElementAuthor, .addBookElementName, .addBookElementImage, .addBookElementButton{
+    margin-top: 20px;
+}
